@@ -16,7 +16,7 @@ def BuscaCep():
     if 'erro' in request.json():
         print('{}: CEP Invalido'.format(cep))
     else:
-        print ('-->> CEP encontrato <<--\n')
+        print ('-->> CEP encontrado <<--\n')
         print('CEP: {}'.format(resultJson['cep']))
         print('Rua: {}'.format(resultJson['logradouro']))
         print('Bairro: {}'.format(resultJson['bairro']))
